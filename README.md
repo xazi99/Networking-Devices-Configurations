@@ -45,3 +45,27 @@ Hybrid clouds - A hybrid cloud is made up of two or more clouds (example: part p
 
 Community clouds - A community cloud is created for exclusive use by a specific community. The differences between public clouds and community clouds are the functional needs that have been customized for the community. For example, healthcare organizations must remain compliant with policies and laws (e.g., HIPAA) that require special authentication and confidentiality.
 
+#Virtualization
+#Advantages of Virtualization
+One major advantage of virtualization is overall reduced cost:
+Less equipment is required - Virtualization enables server consolidation, which requires fewer physical devices and lowers maintenance costs.
+Less energy is consumed - Consolidating servers lowers the monthly power and cooling costs.
+Less space is required - Server consolidation reduces the amount of required floor space.
+
+#Benefits of Virtualizatuion
+Easier prototyping - Self-contained labs, operating on isolated networks, can be rapidly created for testing and prototyping network deployments.
+Faster server provisioning - Creating a virtual server is far faster than provisioning a physical server.
+Increased server uptime - Most server virtualization platforms now offer advanced redundant fault tolerance features.
+Improved disaster recovery - Most enterprise server virtualization platforms have software that can help test and automate failover before a disaster happens.
+Legacy support - Virtualization can extend the life of OSs and applications providing more time for organizations to migrate to newer solutions.
+
+#Hypervisors
+The hypervisor is a program, firmware, or hardware that adds an abstraction layer on top of the physical hardware. The abstraction layer is used to create virtual machines which have access to all the hardware of the physical machine such as CPUs, memory, disk controllers, and NICs.
+
+Type 1 Hypervisor - “Bare Metal” Approach
+Type 1 hypervisors are also called the “bare metal” approach because the hypervisor is installed directly on the hardware. Type 1 hypervisors are usually used on enterprise servers and data center networking devices.
+Type 2 Hypervisor - “Hosted” Approach
+A Type 2 hypervisor is software that creates and runs VM instances. The computer, on which a hypervisor is supporting one or more VMs, is a host machine. Type 2 hypervisors are also called hosted hypervisors. This is because the hypervisor is installed on top of the existing OS, such as macOS, Windows, or Linux. Then, one or more additional OS instances are installed on top of the hypervisor.
+
+#BINARY NUMBER SYSTEM
+# Binary and IPv4 Addresses
